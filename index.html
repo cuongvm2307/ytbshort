@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YTBShort — personal YouTube Shorts publishing tool</title>
+<style>
+  body { font: 16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; color: #1f2328; }
+  h1 { font-size: 28px; margin-bottom: 4px; } h2 { font-size: 20px; margin-top: 32px; }
+  .muted { color: #59636e; } code { background: #f3f4f6; padding: 1px 5px; border-radius: 4px; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #d1d9e0; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>YTBShort</h1>
+<p class="muted">A private, self-hosted tool that schedules YouTube Shorts on the operator's own channels.</p>
+
+<h2>What it does</h2>
+<p>YTBShort runs on a single Windows computer owned by its operator. It helps the operator publish short gaming videos on <strong>two YouTube channels that the operator owns</strong>:</p>
+<ul>
+  <li>Edits the operator's own gameplay recordings (and Creative Commons or explicitly licensed clips, with credit) into vertical 9:16 Shorts with captions and on-screen text.</li>
+  <li>Uploads each finished Short to the operator's own channel as <em>private</em>, with a scheduled publish time (<code>videos.insert</code> with <code>status.publishAt</code>).</li>
+  <li>Checks the upload status of its own videos (<code>videos.list</code>) to confirm they were published.</li>
+</ul>
+
+<h2>Who can use it</h2>
+<p>YTBShort is not a public service. There is no sign-up and no other users: only the operator signs in, with the Google accounts that own their two channels. It does not access, collect or analyze other people's YouTube accounts or data.</p>
+
+<h2>YouTube API Services</h2>
+<p>YTBShort uses the YouTube API Services. By using it, the operator agrees to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See also the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="privacy.html">YTBShort Privacy Policy</a>.</p>
+
+<footer>
+  Contact: <a href="mailto:cuongvm2307@gmail.com">cuongvm2307@gmail.com</a> · <a href="privacy.html">Privacy Policy</a>
+</footer>
+</body>
+</html>
